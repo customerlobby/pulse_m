@@ -4,7 +4,7 @@ PATH
     pulse_m (0.1.0)
       faraday (~> 1.7, >= 1.7.1)
       faraday_middleware (~> 1.1)
-      hashie (~> 3.4, >= 3.4.4)
+      hashie (~> 4.1)
 
 GEM
   remote: https://rubygems.org/
@@ -32,7 +32,7 @@ GEM
     faraday-rack (1.0.0)
     faraday_middleware (1.1.0)
       faraday (~> 1.0)
-    hashie (3.6.0)
+    hashie (4.1.0)
     method_source (1.0.0)
     multipart-post (2.1.1)
     pry (0.14.1)
