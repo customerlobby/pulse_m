@@ -20,7 +20,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Create Client
+```ruby
+client = PulseM.client({ api_key: 'api_key' })
+```
+
+### Fetch Reviews
+```ruby
+client.fetch_reviews({ location_id: 'location_id' })
+```
+
+### Fetch PulseM Internal Reviews
+```ruby
+client.fetch_pulse_m_reviews({ location_id: 'location_id' })
+```
 
 ## Development
 
