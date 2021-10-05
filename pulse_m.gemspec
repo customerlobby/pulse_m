@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email   = ['amsingh@beesolvertechnology.com']
 
   spec.summary     = 'Ruby gem for integration of PulseM Apis'
-  spec.description = 'This gem acts a ruby sdk/wrapper for PulseM api`s`'
+  spec.description = 'This gem acts a ruby sdk/wrapper for PulseM api'
   spec.homepage    = 'https://github.com/customerlobby/pulse_m'
   spec.license     = 'MIT'
 
