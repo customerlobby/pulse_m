@@ -4,7 +4,7 @@ module PulseM
   class Version
     MAJOR = 0 unless defined? PulseM::Version::MAJOR
     MINOR = 1 unless defined? PulseM::Version::MINOR
-    PATCH = 0 unless defined? PulseM::Version::PATCH
+    PATCH = 1 unless defined? PulseM::Version::PATCH
 
     class << self
       # @return [String]

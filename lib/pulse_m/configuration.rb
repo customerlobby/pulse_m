@@ -16,7 +16,7 @@ module PulseM
     DEFAULT_ADAPTER = Faraday.default_adapter
 
     # By default use the main api URL.
-    DEFAULT_ENDPOINT = 'alaska.speetra.com/api'.freeze
+    DEFAULT_ENDPOINT = 'i.speetra.com/api'.freeze
 
     DEFAULT_API_VERSION = '/v1'.freeze
 
