@@ -31,10 +31,7 @@ module PulseM
           request.options.open_timeout = 300 # connection timeout
         end
 
-        data = Response.create(http_response.body)
-        response = {}
-        response['items'] = data
-        response
+        Response.create(http_response.body)
       end
     end
   end

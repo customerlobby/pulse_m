@@ -9,7 +9,7 @@ module PulseM
           raise PulseM::BadRequestError.new(response_hash[:message])
         end
 
-        data = response_hash['data'].dup rescue response_hash
+        data = response_hash rescue response_hash
         data.extend(self)
         data
       end
