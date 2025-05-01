@@ -6,7 +6,8 @@ module PulseM
       :api_key,
       :api_version,
       :adapter,
-      :endpoint
+      :endpoint,
+      :location_id
     ].freeze
 
     # By default don't set the api key.
@@ -19,6 +20,9 @@ module PulseM
     DEFAULT_ENDPOINT = 'i.speetra.com/api'.freeze
 
     DEFAULT_API_VERSION = '/v1'.freeze
+
+    # Default location is nil it is being used for v2 api
+    DEFAULT_LOCATION_ID = nil
 
     attr_accessor *VALID_OPTIONS_KEYS
 
@@ -44,6 +48,7 @@ module PulseM
       self.api_version = DEFAULT_API_VERSION
       self.endpoint    = DEFAULT_ENDPOINT
       self.adapter     = DEFAULT_ADAPTER
+      self.location_id = DEFAULT_LOCATION_ID
     end
   end
 end
