@@ -16,6 +16,7 @@ module PulseM
 
         Faraday::Connection.new(options) do |connection|
           connection.use FaradayMiddleware::PulseMAuth, api_key
+          connection.use FaradayMiddleware::Location, location_id
           connection.use FaradayMiddleware::Mashify
           connection.use Faraday::Response::ParseJson
           connection.adapter(adapter)
